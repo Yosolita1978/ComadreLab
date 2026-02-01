@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ComadreLab — Build with care. Ship with confidence.</title>
+  <meta name="description" content="Websites launched fast — plus automations that save you time every week. No buzzwords. Just clean work.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo" aria-label="ComadreLab home">
+      <img src="images/logo-mark.png" alt="" class="logo-mark" width="36" height="36">
+      <span class="logo-text">Comadre<span class="logo-accent">Lab</span></span>
+    </a>
+    <nav class="nav" id="main-nav">
+      <a href="#services">
+        <span lang="en">Services</span>
+        <span lang="es">Servicios</span>
+      </a>
+      <a href="#work">
+        <span lang="en">Work</span>
+        <span lang="es">Proyectos</span>
+      </a>
+      <a href="#about">
+        <span lang="en">About</span>
+        <span lang="es">Acerca</span>
+      </a>
+      <a href="#contact">
+        <span lang="en">Contact</span>
+        <span lang="es">Contacto</span>
+      </a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" type="button" aria-label="Toggle language">
+        <span lang="en">ES</span>
+        <span lang="es">EN</span>
+      </button>
+      <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" data-section="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="hero-badge" data-reveal>
+          <img src="images/logo-mark.png" alt="" width="48" height="48">
+        </div>
+        <h1 data-reveal>
+          <span lang="en">Build with care.<br><span class="text-gradient">Ship with confidence.</span></span>
+          <span lang="es">Construye con cari&ntilde;o.<br><span class="text-gradient">Lanza con confianza.</span></span>
+        </h1>
+        <p class="hero-sub" data-reveal>
+          <span lang="en">Websites launched fast — plus automations that save you time every week. No buzzwords. Just clean work.</span>
+          <span lang="es">Websites listos r&aacute;pido — y automatizaciones que te ahorran tiempo cada semana. Sin humo. Trabajo limpio.</span>
+        </p>
+        <div class="hero-ctas" data-reveal>
+          <a href="#contact" class="btn btn-primary">
+            <span lang="en">Request a quote</span>
+            <span lang="es">Pedir cotizaci&oacute;n</span>
+          </a>
+          <a href="#work" class="btn btn-secondary">
+            <span lang="en">See work</span>
+            <span lang="es">Ver proyectos</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services" data-section="services">
+      <h2 data-reveal>
+        <span lang="en">What I can build for you</span>
+        <span lang="es">Lo que puedo construir para ti</span>
+      </h2>
+      <div class="services-grid">
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>
+            <span lang="en">Website Sprint</span>
+            <span lang="es">Sprint de Website</span>
+          </h3>
+          <p>
+            <span lang="en">A clean, modern site shipped fast.</span>
+            <span lang="es">Un sitio limpio y moderno, entregado r&aacute;pido.</span>
+          </p>
+          <ul>
+            <li>
+              <span lang="en">Single-page or 3–5 page site</span>
+              <span lang="es">Landing page o sitio de 3–5 p&aacute;ginas</span>
+            </li>
+            <li>
+              <span lang="en">Mobile-first, fast, accessible</span>
+              <span lang="es">Mobile-first, r&aacute;pido, accesible</span>
+            </li>
+            <li>
+              <span lang="en">Contact flow + basic SEO</span>
+              <span lang="es">Formulario de contacto + SEO b&aacute;sico</span>
+            </li>
+          </ul>
+          <p class="service-best">
+            <span lang="en">Best for: launching or refreshing your online presence</span>
+            <span lang="es">Ideal para: lanzar o renovar tu presencia online</span>
+          </p>
+        </article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </div>
+          <h3>
+            <span lang="en">Automation Layer</span>
+            <span lang="es">Capa de Automatizaci&oacute;n</span>
+          </h3>
+          <p>
+            <span lang="en">Less manual work after launch.</span>
+            <span lang="es">Menos trabajo manual despu&eacute;s del lanzamiento.</span>
+          </p>
+          <ul>
+            <li>
+              <span lang="en">Form → email + spreadsheet/CRM</span>
+              <span lang="es">Formulario → email + hoja de c&aacute;lculo/CRM</span>
+            </li>
+            <li>
+              <span lang="en">Booking + intake flows</span>
+              <span lang="es">Reservas + flujos de intake</span>
+            </li>
+            <li>
+              <span lang="en">Lead notifications</span>
+              <span lang="es">Notificaciones de leads</span>
+            </li>
+          </ul>
+          <p class="service-best">
+            <span lang="en">Best for: saving hours on repetitive tasks</span>
+            <span lang="es">Ideal para: ahorrar horas en tareas repetitivas</span>
+          </p>
+        </article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>
+            <span lang="en">Care Plan</span>
+            <span lang="es">Plan de Mantenimiento</span>
+          </h3>
+          <p>
+            <span lang="en">Keep it fresh + working.</span>
+            <span lang="es">Mantenlo fresco y funcionando.</span>
+          </p>
+          <ul>
+            <li>
+              <span lang="en">Small updates and improvements</span>
+              <span lang="es">Peque&ntilde;as actualizaciones y mejoras</span>
+            </li>
+            <li>
+              <span lang="en">Automation tweaks</span>
+              <span lang="es">Ajustes de automatizaci&oacute;n</span>
+            </li>
+            <li>
+              <span lang="en">Performance checks</span>
+              <span lang="es">Revisiones de rendimiento</span>
+            </li>
+          </ul>
+          <p class="service-best">
+            <span lang="en">Best for: peace of mind after launch</span>
+            <span lang="es">Ideal para: tranquilidad despu&eacute;s del lanzamiento</span>
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section class="work" id="work" data-section="work">
+      <h2 data-reveal>
+        <span lang="en">Recent work</span>
+        <span lang="es">Proyectos recientes</span>
+      </h2>
+      <div class="work-grid">
+
+        <article class="work-card" data-reveal>
+          <div class="work-image">
+            <img src="images/projects/nouvie.jpg" alt="Nouvie — ecological products catalog and order management system" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3>Nouvie</h3>
+            <p class="work-type">
+              <span lang="en">Order Management + Product Catalog</span>
+              <span lang="es">Gesti&oacute;n de Pedidos + Cat&aacute;logo de Productos</span>
+            </p>
+            <p>
+              <span lang="en">Built two interconnected Next.js apps for a Colombian cleaning products company: an admin system for orders, inventory, and PDF invoices, plus a public product catalog. Designed mobile-first for a non-technical owner who runs her business entirely from WhatsApp.</span>
+              <span lang="es">Constru&iacute; dos apps Next.js interconectadas para una empresa colombiana de productos de limpieza: un sistema admin para pedidos, inventario y facturas PDF, m&aacute;s un cat&aacute;logo p&uacute;blico. Dise&ntilde;ado mobile-first para una due&ntilde;a no t&eacute;cnica que maneja su negocio desde WhatsApp.</span>
+            </p>
+            <p class="work-stack">Next.js · Prisma · Supabase · Vercel</p>
+          </div>
+        </article>
+
+        <article class="work-card" data-reveal>
+          <div class="work-image">
+            <img src="images/projects/cascadia.jpg" alt="Cascadia AI Collective — community platform for women in AI" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3>Cascadia AI Women</h3>
+            <p class="work-type">
+              <span lang="en">Community + Learning Platform</span>
+              <span lang="es">Comunidad + Plataforma de Aprendizaje</span>
+            </p>
+            <p>
+              <span lang="en">Make AI learning practical, supportive, and less intimidating. Designed meetups around building projects together plus discussions on tools, ethics, and bias. Members learn in public, share resources, and build confidence through community.</span>
+              <span lang="es">Hacer el aprendizaje de IA pr&aacute;ctico, con apoyo y menos intimidante. Dise&ntilde;&eacute; meetups enfocados en construir proyectos juntas m&aacute;s discusiones sobre herramientas, &eacute;tica y sesgos. Las miembros aprenden en p&uacute;blico, comparten recursos y construyen confianza en comunidad.</span>
+            </p>
+            <p class="work-stack">Community Design · Curriculum · Web</p>
+          </div>
+        </article>
+
+        <article class="work-card" data-reveal>
+          <div class="work-image">
+            <img src="images/projects/pleasure-nutrition.jpg.png" alt="Pleasure Nutrition — clean landing page for a nutrition coach" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3>Pleasure Nutrition</h3>
+            <p class="work-type">
+              <span lang="en">Landing Page</span>
+              <span lang="es">Landing Page</span>
+            </p>
+            <p>
+              <span lang="en">A nutrition coach needed a site that didn't scream "wellness influencer" or "diet culture." Lightweight landing page with intentional typography, generous whitespace, and device-aware features like SMS buttons only on phones. Clean code, no dependencies.</span>
+              <span lang="es">Una coach de nutrici&oacute;n necesitaba un sitio que no gritara "influencer de wellness" o "cultura de dieta." Landing page liviana con tipograf&iacute;a intencional, espaciado generoso y funciones como botones SMS solo en m&oacute;viles. C&oacute;digo limpio, sin dependencias.</span>
+            </p>
+            <p class="work-stack">HTML · CSS · Vanilla JS</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process" id="process" data-section="process">
+      <h2 data-reveal>
+        <span lang="en">How it works</span>
+        <span lang="es">C&oacute;mo funciona</span>
+      </h2>
+      <ol class="process-steps">
+        <li data-reveal>
+          <span class="step-number">1</span>
+          <h3>
+            <span lang="en">Quick message</span>
+            <span lang="es">Mensaje r&aacute;pido</span>
+          </h3>
+          <p>
+            <span lang="en">Fill out the form below. I'll reply with a clear plan and quote.</span>
+            <span lang="es">Llena el formulario. Te respondo con un plan y cotizaci&oacute;n clara.</span>
+          </p>
+        </li>
+        <li data-reveal>
+          <span class="step-number">2</span>
+          <h3>
+            <span lang="en">Build sprint</span>
+            <span lang="es">Sprint de construcci&oacute;n</span>
+          </h3>
+          <p>
+            <span lang="en">You approve fast. No disappearing, no surprise invoices.</span>
+            <span lang="es">Apruebas r&aacute;pido. Sin desaparecer, sin facturas sorpresa.</span>
+          </p>
+        </li>
+        <li data-reveal>
+          <span class="step-number">3</span>
+          <h3>
+            <span lang="en">Launch + automate</span>
+            <span lang="es">Lanzamiento + automatizaci&oacute;n</span>
+          </h3>
+          <p>
+            <span lang="en">Everything works. You're live.</span>
+            <span lang="es">Todo funcionando. Est&aacute;s online.</span>
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about" data-section="about">
+      <div class="about-inner" data-reveal>
+        <img src="images/logo-mark.png" alt="" class="about-logo" width="64" height="64">
+        <h2>
+          <span lang="en">About ComadreLab</span>
+          <span lang="es">Acerca de ComadreLab</span>
+        </h2>
+        <p>
+          <span lang="en">ComadreLab is built on a simple idea: you deserve support that feels human. I build websites that make you look legit fast — and automations that take busywork off your plate. Think of me as your comadre in tech: honest, practical, and here to help you ship.</span>
+          <span lang="es">ComadreLab nace de una idea simple: mereces apoyo que se sienta humano. Construyo websites que te hacen ver profesional r&aacute;pido — y automatizaciones que te quitan el trabajo repetitivo. Piensa en m&iacute; como tu comadre en tech: honesta, pr&aacute;ctica, y aqu&iacute; para ayudarte a lanzar.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact" data-section="contact">
+      <h2 data-reveal>
+        <span lang="en">Let's talk</span>
+        <span lang="es">Hablemos</span>
+      </h2>
+      <p class="contact-intro" data-reveal>
+        <span lang="en">Request a quote — I'll answer with a clear plan and a clear number. Price depends on pages, timeline, and automation needs.</span>
+        <span lang="es">Pide una cotizaci&oacute;n — te respondo con un plan claro y un n&uacute;mero claro. El precio depende de p&aacute;ginas, tiempos y automatizaciones.</span>
+      </p>
+
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-reveal>
+
+        <div class="form-group">
+          <label for="name">
+            <span lang="en">Name</span>
+            <span lang="es">Nombre</span>
+          </label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="need">
+            <span lang="en">What do you need?</span>
+            <span lang="es">&iquest;Qu&eacute; necesitas?</span>
+          </label>
+          <select id="need" name="need" required>
+            <option value="">
+              <span lang="en">Select one</span>
+            </option>
+            <option value="website">Website / Landing page</option>
+            <option value="automations">
+              <span lang="en">Automations</span>
+            </option>
+            <option value="both">
+              <span lang="en">Both</span>
+            </option>
+            <option value="not-sure">
+              <span lang="en">Not sure</span>
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="timeline">
+            <span lang="en">How soon do you need it?</span>
+            <span lang="es">&iquest;Para cu&aacute;ndo lo necesitas?</span>
+          </label>
+          <select id="timeline" name="timeline" required>
+            <option value="">
+              <span lang="en">Select one</span>
+            </option>
+            <option value="asap">ASAP</option>
+            <option value="1-2-weeks">1–2 weeks</option>
+            <option value="this-month">
+              <span lang="en">This month</span>
+            </option>
+            <option value="exploring">
+              <span lang="en">Exploring</span>
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">
+            <span lang="en">Message</span>
+            <span lang="es">Mensaje</span>
+          </label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="business">
+            <span lang="en">Business name (optional)</span>
+            <span lang="es">Nombre del negocio (opcional)</span>
+          </label>
+          <input type="text" id="business" name="business">
+        </div>
+
+        <div class="form-group">
+          <label for="website">
+            <span lang="en">Website or social link (optional)</span>
+            <span lang="es">Website o red social (opcional)</span>
+          </label>
+          <input type="url" id="website" name="website">
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          <span lang="en">Request a quote</span>
+          <span lang="es">Pedir cotizaci&oacute;n</span>
+        </button>
+      </form>
+
+      <div class="form-success" hidden>
+        <p>
+          <span lang="en">Got it! I'll reply within 1–2 business days with next steps and a clear quote. If you want to talk sooner, you can <a href="#">book a quick call</a>.</span>
+          <span lang="es">&iexcl;Listo! Te respondo en 1–2 d&iacute;as h&aacute;biles con los siguientes pasos y una cotizaci&oacute;n clara. Si quieres hablar antes, puedes <a href="#">agendar una llamada corta</a>.</span>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <a href="#" class="logo" aria-label="ComadreLab home">
+        <img src="images/logo-mark.png" alt="" class="logo-mark" width="28" height="28">
+        <span class="logo-text">Comadre<span class="logo-accent">Lab</span></span>
+      </a>
+      <nav class="footer-nav">
+        <a href="#services">
+          <span lang="en">Services</span>
+          <span lang="es">Servicios</span>
+        </a>
+        <a href="#work">
+          <span lang="en">Work</span>
+          <span lang="es">Proyectos</span>
+        </a>
+        <a href="#contact">
+          <span lang="en">Contact</span>
+          <span lang="es">Contacto</span>
+        </a>
+      </nav>
+      <button class="lang-toggle" type="button" aria-label="Toggle language">
+        <span lang="en">ES</span>
+        <span lang="es">EN</span>
+      </button>
+    </div>
+    <p class="footer-copy">&copy; 2025 ComadreLab</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
