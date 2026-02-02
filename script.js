@@ -219,6 +219,7 @@
       })
         .then(function (response) {
           if (response.ok) {
+            form.reset();
             form.hidden = true;
             successMessage.hidden = false;
           } else {
