@@ -93,7 +93,7 @@ body {
 /* ================================
    Language Toggle (show/hide)
    ================================ */
-[lang="es"] {
+:not(html)[lang="es"] {
   display: none;
 }
 
