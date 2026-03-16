@@ -206,16 +206,18 @@
 
       var formData = new FormData(form);
       var submitButton = form.querySelector('button[type="submit"]');
+      var data = {};
+      formData.forEach(function (value, key) {
+        data[key] = value;
+      });
 
       submitButton.disabled = true;
       submitButton.textContent = '...';
 
-      fetch(form.action, {
+      fetch('/api/contact', {
         method: 'POST',
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
       })
         .then(function (response) {
           if (response.ok) {
