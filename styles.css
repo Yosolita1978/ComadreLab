@@ -420,7 +420,7 @@ section > .contact-intro {
   position: fixed;
   inset: 0;
   z-index: 99;
-  background-color: rgba(8, 12, 22, 0.97);
+  background-color: var(--bg-deep);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   align-items: center;
