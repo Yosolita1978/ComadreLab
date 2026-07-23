@@ -974,6 +974,12 @@ section > .contact-intro {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  /* Center a lone 4th card on its own row */
+  .services-grid > .service-card:last-child:nth-child(4),
+  .work-grid > .work-card:last-child:nth-child(4) {
+    grid-column: 2 / 3;
+  }
+
   .process-steps {
     grid-template-columns: repeat(3, 1fr);
     gap: var(--space-md);
